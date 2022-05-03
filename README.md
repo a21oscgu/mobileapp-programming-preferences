@@ -1,7 +1,18 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+# Assignment 6: Shared preferences
+
+**Text**
+
+```
+ArrayList<Mountain> mountainsArray;
+```
+
+**Detta skärmklipp visar den <i>RecyclerView</i> som finns på startsidan i appen:**
+
+<img src="/Screenshot_20220502_123357.png" width="60%">
+
 
 _Du kan ta bort all text som finns sedan tidigare_.
 
