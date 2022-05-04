@@ -3,7 +3,7 @@
 
 # Assignment 6: Shared preferences
 
-**Den här appen är forkad från LenaSYS/mobileapp-programming-preferences. Appen har två activities, "MainActivity" och "SecondActivity". På sidan "MainActivity" finns det en <i>TextView</i> och en knapp som heter "open". Om användaren klickar på "open" kommer ett <i>intent</i> startas och sidan "SecondActivity" kommer att visas upp ovanför "MainActivity". På sidan "SecondActivity" finns det en <i>EditText</i> och en knapp som heter "close". Ifall användaren klickar på knappen "close" kommer intentet att avslutas, sidan "SecondActivity" kommer alltså att stängas ner, också kommer det skrivna värdet i <i>EditText</i> att skickas till den <i>TextView</i> som finns på sidan "MainActivity". Texten skickas med hjälp av <i>Shared Preferences</i>.**
+**Den här appen är forkad från LenaSYS/mobileapp-programming-preferences. Appen har två activities, "MainActivity" och "SecondActivity". På sidan "MainActivity" finns det en <i>TextView</i> och en knapp som heter "open". Om användaren klickar på "open" kommer ett <i>intent</i> att startas och sidan "SecondActivity" kommer att visas upp ovanför "MainActivity". På sidan "SecondActivity" finns det en <i>EditText</i> och en knapp som heter "close". Ifall användaren klickar på knappen "close" kommer intentet att avslutas, sidan "SecondActivity" kommer alltså att stängas ner, också kommer det skrivna värdet i <i>EditText</i> att skickas till den <i>TextView</i> som finns på sidan "MainActivity". Texten skickas med hjälp av <i>Shared Preferences</i>.**
 
 **Denna kodsnutt visar det som sker när användaren trycker på knappen "CLOSE AND SUBMIT" på sidan <i>SecondActivity</i>:**
 
