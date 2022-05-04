@@ -5,13 +5,37 @@
 
 **Text**
 
+**Denna kodsnutt visar det som sker när användaren trycker på knappen "CLOSE AND SUBMIT" på sidan <i>SecondActivity</i>:**
+
 ```
-ArrayList<Mountain> mountainsArray;
+Button close = findViewById(R.id.close2nd);
+        close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Shared preferences (initieras)
+                SharedPreferences myPreferenceRef = getSharedPreferences("POSTNORD_OBJEKT",MODE_PRIVATE);
+                SharedPreferences.Editor myPreferenceEditor = myPreferenceRef.edit();
+
+                // Read a preference
+                EditText prefTextRef;
+                prefTextRef= findViewById(R.id.myedittext);
+
+                // Sätter in text i nyckeln "username"
+                myPreferenceEditor.putString("username", prefTextRef.getText().toString());
+                myPreferenceEditor.apply();
+
+                finish();
+            }
+        });
 ```
 
-**Detta skärmklipp visar den <i>RecyclerView</i> som finns på startsidan i appen:**
+**Detta skärmklipp visar <i>SecondActivity.java</i> i appen:**
 
-<img src="/Screenshot_20220502_123357.png" width="60%">
+<img src="/Screenshot_20220504_150323.png" width="60%">
+
+**Detta skärmklipp visar <i>MainActivity.java</i> i appen:**
+
+<img src="/Screenshot_20220504_150338.png" width="60%">
 
 
 _Du kan ta bort all text som finns sedan tidigare_.
