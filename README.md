@@ -3,7 +3,7 @@
 
 # Assignment 6: Shared preferences
 
-**Text**
+**Den här appen är forkad från LenaSYS/mobileapp-programming-preferences. Appen har två activities, "MainActivity" och "SecondActivity". På sidan "MainActivity" finns det en <i>TextView</i> och en knapp som heter "open". Om användaren klickar på "open" kommer ett <i>intent</i> startas och sidan "SecondActivity" kommer att visas upp ovanför "MainActivity". På sidan "SecondActivity" finns det en <i>EditText</i>. Ifall användaren klickar på knappen "close" kommer intentet att avslutas, sidan "SecondActivity" kommer alltså att stängas ner, också kommer det skrivna värdet i <i>EditText</i> att skickas till den <i>TextView</i> som finns på sidan "MainActivity". Texten skickas med hjälp av <i>Shared Preferences</i>.**
 
 **Denna kodsnutt visar det som sker när användaren trycker på knappen "CLOSE AND SUBMIT" på sidan <i>SecondActivity</i>:**
 
@@ -29,11 +29,11 @@ Button close = findViewById(R.id.close2nd);
         });
 ```
 
-**Detta skärmklipp visar <i>SecondActivity.java</i> i appen:**
+**Detta skärmklipp visar <i>SecondActivity</i> i appen, där användaren har skrivit in "Adam" i textfältet:**
 
 <img src="/Screenshot_20220504_150323.png" width="60%">
 
-**Detta skärmklipp visar <i>MainActivity.java</i> i appen:**
+**Detta skärmklipp visar <i>MainActivity</i> i appen, då användaren tidigare har skrivit "Adam" i textfältet på sidan <i>SecondActivity</i>:**
 
 <img src="/Screenshot_20220504_150338.png" width="60%">
 
