@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         // Texten från nyckeln "username" kopplas med "mytextview"
         TextView prefTextRef;
         prefTextRef= findViewById(R.id.mytextview);
-        prefTextRef.setText(myPreferenceRef.getString("username", "No username found."));
+        prefTextRef.setText(myPreferenceRef.getString("input", "No input found."));
 
     }
 }
